@@ -1,2 +1,11 @@
+
+
 # AgroMachine
-Machine learning project for the Artificial Inteligence academic course on IESB - Instituto de Educação Superior de Brasília
+
+![logo](assets/img/logo.png)
+
+**Projeto de inteligência artificial em Agricultura com Machine Learning.**
+
+
+- Gilberto Charles - 151213109
+- Victor Hugo - 
