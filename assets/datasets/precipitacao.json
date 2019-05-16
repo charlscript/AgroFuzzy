@@ -1,0 +1,88 @@
+{
+    "meses": [
+        {
+            "Mes": "Janeiro",
+            "Precipitacao": 284,
+            "TemperaturaMax": 26.7,
+            "TemperaturaMin": 17.1,
+            "TemperaturaMed": 21.9
+        },
+        {
+            "Mes": "Fevereiro",
+            "Precipitacao": 211,
+            "TemperaturaMax": 26.9,
+            "TemperaturaMin": 17,
+            "TemperaturaMed": 21.9
+        },
+        {
+            "Mes": "Março",
+            "Precipitacao": 224,
+            "TemperaturaMax": 26.7,
+            "TemperaturaMin": 16.7,
+            "TemperaturaMed": 21.7
+        },
+        {
+            "Mes": "Abril",
+            "Precipitacao": 136,
+            "TemperaturaMax": 26.3,
+            "TemperaturaMin": 15.3,
+            "TemperaturaMed": 20.8
+        },
+        {
+            "Mes": "Maio",
+            "Precipitacao": 34,
+            "TemperaturaMax": 25.7,
+            "TemperaturaMin": 13.5,
+            "TemperaturaMed": 19.6
+        },
+        {
+            "Mes": "Junho",
+            "Precipitacao": 7,
+            "TemperaturaMax": 25.3,
+            "TemperaturaMin": 12.5,
+            "TemperaturaMed": 18.9
+        },
+        {
+            "Mes": "Julho",
+            "Precipitacao": 10,
+            "TemperaturaMax": 26.5,
+            "TemperaturaMin": 13.3,
+            "TemperaturaMed": 19.9
+        },
+        {
+            "Mes": "Agosto",
+            "Precipitacao": 14,
+            "TemperaturaMax": 27.9,
+            "TemperaturaMin": 14.8,
+            "TemperaturaMed": 21.3
+        },
+        {
+            "Mes": "Setembro",
+            "Precipitacao": 49,
+            "TemperaturaMax": 27.9,
+            "TemperaturaMin": 16.7,
+            "TemperaturaMed": 22.3
+        },
+        {
+            "Mes": "Outubro",
+            "Precipitacao": 163,
+            "TemperaturaMax": 27,
+            "TemperaturaMin": 17.2,
+            "TemperaturaMed": 22.1
+        },
+        {
+            "Mes": "Novembro",
+            "Precipitacao": 260,
+            "TemperaturaMax": 26.3,
+            "TemperaturaMin": 17.1,
+            "TemperaturaMed": 21.7
+        },
+        {
+            "Mes": "Dezembro",
+            "Precipitacao": 276,
+            "TemperaturaMax": 26.5,
+            "TemperaturaMin": 16.1,
+            "TemperaturaMed": 21.3
+        }
+    ]
+}
