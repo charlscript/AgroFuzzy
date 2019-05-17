@@ -2,6 +2,18 @@
 
 ![logo](logo.png)
 
+
+
+---
+
+###### Introdução
+
+O trabalho visa de forma simplificada usar lógica fuzzy em Python para determinar a melhor época para o plantio de soja no Distrito Federal. Foram usadas bibliotecas do kit científico de python(SciPy) orientadas à lógica fuzzy e funções de pertinência triangulares.
+
+Com este projeto pretendemos alcançar um domínio prático sobre a programação de lógica fuzzy e técnicas usadas no Python.
+
+
+
 ###### Bibliotecas utilizadas
 
 ```python
@@ -46,15 +58,11 @@ from skfuzzy import control as ctrl ## Módulo de controle para as regras fuzzy
   crescimento['alto'] = fuzz.trimf(crescimento.universe, [30, 60, 60])
   ```
 
-**Definição das regras:**
+***Definição das regras*:**
 
 A soja precisa de calor e frio moderados para se desenvolver de forma saudável, em climas secos ela tende a não se desenvolver de forma adequada, causando prejuízos ao produtor.
 
-> https://novonegocio.com.br/rural/plantio-de-soja/
-
 A soja se adapta melhor às regiões onde as temperaturas oscilam entre 20ºC e 30ºC sendo que a temperatura ideal para seu desenvolvimento está em torno de 30ºC
-
-> https://www.agencia.cnptia.embrapa.br/gestor/soja/arvore/CONT000fzr67cri02wx5ok0cpoo6aeh331my.html
 
 1. Se a chuva é baixa e a temperatura é média, então o crescimento será médio
 
@@ -119,3 +127,23 @@ chuva.view(sim=fatorCrescimento)
 crescimento.view(sim=fatorCrescimento)
 plt.show()
 ```
+
+###### *Conclusão*:
+
+O projeto fluiu bem. As bibliotecas do Python são bem documentadas, opensource e possuem uma grande comunidade online. Os dados de saída do projeto coincidiram com pesquisas na internet(Melhor plantio no mês de Outubro). Usamos um dataset de média de temperatura e precipitação da ANA(Agência Nacional de Águas), que foi um pouco problemático mas que não se provou um desafio na conclusão do projeto.
+
+
+
+***Bibliografia***:
+
+Como fazer o plantio de soja. Disponível em<[https://novonegocio.com.br/rural/plantio-de-soja/](https://novonegocio.com.br/rural/plantio-de-soja/)>. Acessado em 15 de Maio de 2019.
+
+Agência Embrapa de Informação e Tecnologia. Disponível em <[https://www.agencia.cnptia.embrapa.br/gestor/soja/arvore/CONT000fzr67cri02wx5ok0cpoo6aeh331my.html](https://www.agencia.cnptia.embrapa.br/gestor/soja/arvore/CONT000fzr67cri02wx5ok0cpoo6aeh331my.html)>. Acessado em 15 de Maio de 2019.
+
+SciKit-Fuzzy documentation. Disponível em<[https://pythonhosted.org/scikit-fuzzy/overview.html](https://pythonhosted.org/scikit-fuzzy/overview.html)>. Acessado em 15 de maio de 2019.
+
+Docs e exemplos no repositório oficial da library no GitHub. Disponível em<[https://github.com/scikit-fuzzy/scikit-fuzzy/tree/master/docs](https://github.com/scikit-fuzzy/scikit-fuzzy/tree/master/docs)>. Acessado em 15 de maio de 2019.
+
+
+
+
