@@ -1,5 +1,3 @@
-pip install matplotlib
-pip install numpy
-pip install scikit-fuzzy
-sudo apt-get install python-tk
-pip install -U scikit-image
+
+sudo apt-get install python3-tk
+pip install scikit-image matplotlib numpy scikit-fuzzy
