@@ -1,3 +1,0 @@
-
-sudo apt-get install python3-tk
-pip3 install scikit-image matplotlib numpy scikit-fuzzy
