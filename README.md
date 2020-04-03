@@ -11,7 +11,7 @@ Para executar, primeiros, precisamos do tk, que nào está disponível no pip:
 - ubuntu e derivados:
 sudo apt-get install python3-tk
 
-- archlinux e derivados
+- archlinux e derivados:
 sudo pacman -S tk
 
 
