@@ -15,9 +15,10 @@ sudo apt-get install python3-tk
 sudo pacman -S tk
 
 
-Depois da instalaçao do tk, instalamos o resto das dependências com pip3 install -r requirements.txt --user
+Depois da instalaçao do tk, instalamos o resto das dependências com pip install -r requirements.txt --user
+Para executar: python src/main.py
 
-Enfim, para a execuçao, python3 src/main.py
+
 ---
 
 [Documentação](https://github.com/GilbertoCharles/AgroMachine/blob/master/doc/doc.pdf)
