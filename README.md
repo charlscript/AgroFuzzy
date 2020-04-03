@@ -16,6 +16,7 @@ sudo pacman -S tk
 
 
 Depois da instalaçao do tk, instalamos o resto das dependências com pip install -r requirements.txt --user
+
 Para executar: python src/main.py
 
 
